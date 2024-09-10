@@ -22,7 +22,7 @@ PROXY_PASSWORD=your_proxy_password
 ### Usage
 
 ```typescript
-import {withProxy} from 'fast-proxy-wrapper';
+import {withProxy} from '@totallynodavid/proxy-wrapper';
 
 const originalFunction = async () => {
     const response = await fetch('https://api.example.com/data');
