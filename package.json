@@ -1,5 +1,5 @@
 {
-    "name": "proxy-wrapper",
+    "name": "@totallynodavid/proxy-wrapper",
     "version": "1.0.0",
     "description": "A fast proxy wrapper for fetch requests",
     "main": "dist/index.js",
