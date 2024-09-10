@@ -1,0 +1,12 @@
+.github
+.changeset
+node_modules
+src
+
+.env
+.gitignore
+.prettierignore
+prettier.config.js
+pnpm-lock.yaml
+test.ts
+tsconfig.js

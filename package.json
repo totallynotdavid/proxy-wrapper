@@ -1,0 +1,29 @@
+{
+  "name": "proxy-wrapper",
+  "version": "1.0.0",
+  "description": "A fast proxy wrapper for fetch requests",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node -r tsconfig-paths/register src/dev.ts",
+    "clean": "shx rm -rf dist node_modules pnpm-lock.yaml",
+    "prettier": "prettier --write src/**/*.ts"
+  },
+  "keywords": ["proxy", "fetch", "wrapper"],
+  "author": "David Duran",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "https-proxy-agent": "^7.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/node-fetch": "2",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  },
+  "peerDependencies": {
+    "node-fetch": "2"
+  }
+}
