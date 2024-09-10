@@ -29,5 +29,8 @@
     },
     "peerDependencies": {
         "node-fetch": "2"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
