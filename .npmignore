@@ -4,6 +4,7 @@ node_modules
 src
 
 .env
+.env.example
 .gitignore
 .prettierignore
 prettier.config.js
