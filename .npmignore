@@ -10,4 +10,4 @@ src
 prettier.config.js
 pnpm-lock.yaml
 test.ts
-tsconfig.js
+tsconfig.json
